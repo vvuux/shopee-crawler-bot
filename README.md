@@ -9,9 +9,9 @@ Bot crawls shopee product data
 
 ## Usage
 # Download Chrome Driver
-Download chromedriver_win32.zip from https://chromedriver.chromium.org/downloads depend on your version of Chrome Browser. 
-Then, extract .zip file and create a folder at C:\ (Example: 'C:\chromedriver\chromedriver.exe')
-Set environment variable
+Download chromedriver_win32.zip from https://chromedriver.chromium.org/downloads depend on your version of Chrome Browser.<br /> 
+Then, extract .zip file and create a folder at C:\ (Example: 'C:\chromedriver\chromedriver.exe').<br />
+Set environment variable.<br />
 
 # Create a folder
 Create a folder to hold data
