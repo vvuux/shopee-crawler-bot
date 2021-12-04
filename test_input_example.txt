@@ -1,3 +1,4 @@
+"C:\chromedriver\chromedriver.exe"
 "T-shirt"
 20
 "C:\\Users\\hp\\Desktop\\shopee-data"
