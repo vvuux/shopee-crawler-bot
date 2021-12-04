@@ -21,7 +21,7 @@ class ShopeeCrawler:
     This tool works on Chrome Driver.
     Download Chrome Drive and create a new environment path for chromedriver.exe
     """
-    def __init__(self,time_sleep=2,chromedriver_path="C:\chromedriver\chromedriver.exe"):
+    def __init__(self,chromedriver_path,time_sleep=2):
         self.chromedriver_path = chromedriver_path
         self.time_sleep = time_sleep
         self.url = "https://shopee.vn/"
@@ -205,6 +205,7 @@ class ShopeeCrawler:
         self.driver.close()
 
 if __name__=="__main__":
+    chromedriver = input("Chrome Driver Path: ")
     keyword = input("Keyword: ")
     num = int(input("Number of product data: "))
     while num <= 0:
