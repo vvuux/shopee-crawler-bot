@@ -2,10 +2,10 @@
 Bot crawls shopee product data 
 
 ## Requirements
-python >= 3.7.8
-selenium == 4.1.0
-html5lib == 1.1
-bs4 == 0.0.1
+* python >= 3.7.8
+* selenium == 4.1.0
+* html5lib == 1.1
+* bs4 == 0.0.1
 
 ## Usage
 # Download Chrome Driver
@@ -16,5 +16,5 @@ Set environment variable
 # Create a folder
 Create a folder to hold data
 
-# Run
-python data-crawler.py
+# Open CMD and run
+<pre><code>python data-crawler.py</code></pre>
